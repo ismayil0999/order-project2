@@ -1,5 +1,5 @@
 import { useState } from "react";
-function Navbar(){
+function Navbar({contact}){
     const handleNavClick = (sectionId,e) => {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -22,7 +22,7 @@ function Navbar(){
     <li><a href="section4" onClick={(e) => {handleNavClick("section4");e.preventDefault()}}>Assembly</a></li>
 </ul>
 <div>
-    <button className="w-[111px] h-[40px] rounded-[16px] border-[1.5px] p-[10px] border-[#A9ADB1] flex items-center  justify-center text-[#A9ADB1]">Contact us</button>
+    <button onClick={()=>{contact(true)}} className="w-[111px] h-[40px] rounded-[16px] border-[1.5px] p-[10px] border-[#A9ADB1] flex items-center  justify-center text-[#A9ADB1]">Contact us</button>
 </div>
 <img src="./gradient.png" className="z-[-10000] max-[800px]:hidden absolute w-[1000px] h-[500px] top-0 right-0"></img>
         </div>

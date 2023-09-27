@@ -10,13 +10,15 @@ import SectionSix from './components/SectionSix';
 import SectionSeven from './components/SectionSeven';
 import BottomSection from './components/BottomSection';
 import AlertBox from './components/AlertBox';
+import ContactForm from './components/ContactForm';
 
 
 function App() {
   const [agree,setAgree]=useState(true)
+  const [contact,setContact]=useState(false)
   return (
     <div className="container  lg:w-[80%] w-full h-full mx-auto  max-[655px]:w-[95%]">
-<Navbar/>
+<Navbar contact={setContact}/>
 <SectionOne/>
 <SectionTwo/>
 <SectionThree/>
@@ -26,6 +28,7 @@ function App() {
 <SectionSeven/>
 <BottomSection/>
 {agree===true ? <AlertBox agree={setAgree}/> : null}
+{contact===true ? <ContactForm contact={setContact}/> : null}
 
     </div>
    

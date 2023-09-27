@@ -120,3 +120,9 @@ body {
 a{
   cursor: pointer;
 }
+textarea{
+  max-width: 278px;
+  min-width: 278px;
+  min-height: 200px;
+  max-height: 200px;
+}
