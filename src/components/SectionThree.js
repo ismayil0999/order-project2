@@ -1,6 +1,6 @@
 function SectionThree(){
     return(
-        <div id="section2" className="w-full bg-[#E7E6EF] max-[765px]:gap-[20px] rounded-t-[60px] p-[60px] mt-[-60px] lg:mt-[-50px] max-[1075px]:mt-[-40px] ">
+        <div id="section2" className="w-full max-[500px]:mt-[-50px] bg-[#E7E6EF] max-[765px]:gap-[20px] rounded-t-[60px] p-[60px] mt-[-60px] lg:mt-[-50px] max-[1075px]:mt-[-40px] ">
 <div className="max-[765px]:mt-[-10px]">
     <h1 className="section-title max-[765px]:text-center max-[765px]:pb-[20px]">Design</h1>
 </div>

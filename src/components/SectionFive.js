@@ -2,7 +2,7 @@ function SectionFive(){
     return(
         <div id="section4" className="w-full rounded-t-[60px] bg-white flex mt-[-45px] flex-col gap-[30px] p-[60px]">
 <div className="">
-    <h1 className="section-title">Production</h1>
+    <h1 className="section-title max-[765px]:text-center max-[765px]:pb-[20px]">Production</h1>
 </div>
 <div className="flex gap-[50px] max-[765px]:flex-col items-center">
     <div className="basis-[60%] max-[765px]:basis-[90%]">
