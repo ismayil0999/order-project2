@@ -1,6 +1,6 @@
 function SectionFive(){
     return(
-        <div id="section4" className="w-full pb-[80px] rounded-t-[60px] bg-white flex mt-[-45px] flex-col gap-[30px] p-[60px]">
+        <div id="section4" className="w-full max-[480px]:pb-[60px] pb-[80px] max-[480px]:p-[30px] rounded-t-[60px] bg-white flex mt-[-45px] flex-col gap-[30px] p-[60px]">
 <div className="">
     <h1 className="section-title max-[765px]:text-center max-[765px]:pb-[20px] max-[500px]:text-[30px]">Production</h1>
 </div>
